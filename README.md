@@ -45,10 +45,9 @@ json_data/STGR-RL.json
 
 Download the corresponding videos and model checkpoint from:
 
-```text
-STGR / Open-o3-Video data:  https://huggingface.co/datasets/marinero4972/Open-o3-Video
-SFT initialization model:   https://huggingface.co/marinero4972/Open-o3-Video-SFT-7B
-```
+- [STGR / Open-o3-Video data](https://huggingface.co/datasets/marinero4972/Open-o3-Video)
+- [SFT initialization model](https://huggingface.co/marinero4972/Open-o3-Video-SFT-7B)
+
 The overall data structure should be:
 ```sh
 DATA_ROOT
@@ -68,7 +67,7 @@ DATA_ROOT
 ```
 
 You should refine the DATA_ROOT in [`src/r1-v/configs/data_root.py`](src/r1-v/configs/data_root.py) according to your data path.
-For more details on STGR data preparation, please refer to the Open-o3-Video repository: https://github.com/marinero4972/Open-o3-Video.
+For more details on STGR data preparation, please refer to the [Open-o3-Video repository](https://github.com/marinero4972/Open-o3-Video).
 
 Update local data paths according to your storage layout.
 
@@ -92,23 +91,19 @@ bash eval/scripts/eval_all.sh
 
 Evaluation datasets:
 
-```text
-V-STaR:              https://huggingface.co/datasets/V-STaR-Bench/V-STaR
-Video-MME-v2:        https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2
-VideoMMMU:           https://huggingface.co/datasets/lmms-lab/VideoMMMU
-WorldSense:          https://huggingface.co/datasets/honglyhly/WorldSense
-LongVideo-Reason:    https://huggingface.co/datasets/LongVideo-Reason/longvideo_eval_videos
-Charades-STA:        https://huggingface.co/datasets/lmms-lab/charades_sta
-TVG:                 https://huggingface.co/datasets/Boshenxx/TimeR1-Dataset
-```
+- [V-STaR](https://huggingface.co/datasets/V-STaR-Bench/V-STaR)
+- [Video-MME-v2](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)
+- [VideoMMMU](https://huggingface.co/datasets/lmms-lab/VideoMMMU)
+- [WorldSense](https://huggingface.co/datasets/honglyhly/WorldSense)
+- [LongVideo-Reason](https://huggingface.co/datasets/LongVideo-Reason/longvideo_eval_videos)
+- [Charades-STA](https://huggingface.co/datasets/lmms-lab/charades_sta)
+- [TVG](https://huggingface.co/datasets/Boshenxx/TimeR1-Dataset)
 
 External evaluation code:
 
-```text
-Video-MME-v2:         https://github.com/MME-Benchmarks/Video-MME-v2
-LongVideo-Reason:     https://github.com/cyuQ1n/EasyVideoR1
-TVG / Charades-STA:   https://github.com/xiaomi-research/time-r1
-```
+- [Video-MME-v2](https://github.com/MME-Benchmarks/Video-MME-v2)
+- [LongVideo-Reason](https://github.com/cyuQ1n/EasyVideoR1)
+- [TVG / Charades-STA](https://github.com/xiaomi-research/time-r1)
 
 ## Main Results
 

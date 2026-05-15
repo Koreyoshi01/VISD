@@ -122,8 +122,11 @@ We sincerely thank the following projects for their contributions to this work:
 
 - [R1-V](https://github.com/StarsfieldAI/R1-V)
 - [Open-o3-Video](https://github.com/marinero4972/Open-o3-Video)
-- [VisionCoach](https://github.com/dvlab-research/VisionCoach)
+- [VisionCoach](https://github.com/daeunni/VisionCoach)
 - [Video-R1](https://github.com/tulerfeng/Video-R1)
+- [Video-MME-v2](https://github.com/MME-Benchmarks/Video-MME-v2)
+- [EasyVideoR1](https://github.com/cyuQ1n/EasyVideoR1)
+- [Time-R1](https://github.com/xiaomi-research/time-r1)
 
 We appreciate the developers and contributors of these projects for their excellent work and open-source contributions.
 

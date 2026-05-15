@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Training / experiment artifacts
+wandb/
+results_rl/
+eval/logs/
+tmp_test/
+tmp_local_check/
+videos
+docs/
+
+# Local envs
+.venv/
+venv/
+env/

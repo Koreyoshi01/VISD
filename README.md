@@ -130,13 +130,10 @@ We appreciate the developers and contributors of these projects for their excell
 If you use our work or our implementation in this repo, or find them helpful, please consider giving a citation in the following format.
 
 ```bibtex
-@misc{lin2026visdenhancingvideoreasoning,
-      title={VISD: Enhancing Video Reasoning via Structured Self-Distillation},
-      author={Hao Lin and Kunyang Lv and Xu Jiang and Jingqi Tian and Zhongjing Du and Jiayu Ding and Qiaoman Zhang and Hongbo Jin},
-      year={2026},
-      eprint={2605.06094},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2605.06094},
+@article{lin2026visd,
+  title={VISD: Enhancing Video Reasoning via Structured Self-Distillation},
+  author={Lin, Hao and Lv, Kunyang and Jiang, Xu and Tian, Jingqi and Du, Zhongjing and Ding, Jiayu and Zhang, Qiaoman and Jin, Hongbo},
+  journal={arXiv preprint arXiv:2605.06094},
+  year={2026}
 }
 ```

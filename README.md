@@ -8,7 +8,7 @@
 
 ## Updates
 
-- **(2026.09.28) 🎉 VISD has been accepted to NeurIPS 2026!**
+- **(2026.09.25) 🎉 VISD has been accepted to NeurIPS 2026!**
 - **(2026.05.16) Initial release of VISD (official implementation).**
 
 ## Overview
